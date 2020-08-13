@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutappFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BookLove is an online application for book lovers who wants to know about more books, books prises, books ratings and author so that they can purchase it easily from anywhere in market.Users can read the description about book and can also add or remove book from favourite books.
+Users can also shortlist the books according the highest rating."
+            android:textColor="@color/black"
+            android:layout_margin="11dp"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/tt2"
+            android:text="FEATURES:-"
+            android:layout_below="@id/tt1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#0d47a1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tt3"
+            android:layout_below="@id/tt2"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_1_check_book_author_rating_and_prise_at_dashboard"
+            android:textSize="19sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:id="@+id/tt4"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_2_read_description_about_book_after_clicking_on_book"
+            android:layout_below="@id/tt3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_add_to_favourites_by_pressing_add_button"
+            android:id="@+id/tt5"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="19sp"
+            android:layout_below="@id/tt4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_below="@id/tt5"
+            android:layout_marginLeft="5dp"
+            android:text="@string/_4_do_shorting_according_high_ratings_by_pressing_sort_button"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+ </ScrollView>
